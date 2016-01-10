@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Python demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="python-placeholder" style="width:800px;height:600px;margin: 20px auto;box-shadow: 0 1px 3px 1px rgba(128,128,128,.4);"></div>
+    <script src="dist/python.min.js"></script>
+    <script>
+        var pythonApp = null;
+        window.onload = function() {
+            pythonApp = new r0mk1n.PythonApp({
+                placeholder: 'python-placeholder',
+            });
+        }
+    </script>
+</body>
+</html>
